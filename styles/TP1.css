@@ -16,7 +16,13 @@ header {
 }
 
 h1 {
+    display: flex;
+    align-items: center;
     margin: 0;
+}
+
+.flex {
+    display: flex;
 }
 
 a {
@@ -34,4 +40,8 @@ main {
 
 img {
     width: 100%;
+}
+
+.logo {
+    width: 180px;
 }
