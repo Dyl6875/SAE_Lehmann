@@ -40,10 +40,14 @@ h1 {
 .flex {
     display: flex;
 }
+.bouge{
+    margin-right: 30px;
+}
 
 a {
     border: solid black;
-    padding :8px;
+    font-family: bold;
+    padding :8px 30px;
     text-decoration: none;
     color: black;
 }
@@ -53,10 +57,9 @@ img {
 }
 
 .logo {
-    width: 80px;
+    width: 55px;
 }
 
 .btnheader{
-
-    gap: 100px;
+    gap: 50px;
 }
