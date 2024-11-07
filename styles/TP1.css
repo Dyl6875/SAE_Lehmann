@@ -11,7 +11,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 0, 0);
+    background-color: #f5572a;
+    padding: 10px;
 }
 
 h1 {
@@ -24,11 +25,6 @@ a {
     margin-left: 150px;
 }
 
-.bouge {
-    display: flex;
-    gap: 35px;
-}
-
 main {
     display: flex;
     justify-content: space-around;
@@ -38,81 +34,4 @@ main {
 
 img {
     width: 100%;
-}
-
-.image {
-    width: 250px;
-    padding: 10px;
-}
-
-.gauche {
-    width: 40%;
-}
-
-.gras {
-    font-weight: bolder;
-}
-
-.droite {
-    background-color: #ffffff;
-    padding: 16px;
-    width: 320px;
-}
-
-.flex {
-    display: flex;
-    gap: 8px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h2 {
-    margin: 0;
-}
-
-h3 {
-    margin: 1px;
-    padding-bottom: 5px;
-}
-
-.prix {
-    font-size: 32px;
-}
-
-input {
-    border: none;
-    font-size: 32px;
-    width: 100%;
-}
-
-form {
-    margin-top: 45px;
-}
-
-.border {
-    border: 1px solid;
-    font-size: 24px;
-}
-
-.border>div {
-    padding: 8px;
-}
-
-[type=submit] {
-    background: #ff0000;
-    color: #FFF;
-    margin-top: 4px;
-    cursor: pointer;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.26);
-    transition: 0.4s;
-    transform: translate(-4px, -4px);
-}
-
-[type=submit]:hover {
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.90);
-}
-
-[type=submit]:active {
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.90);
-    transform: translate(0, 0);
 }
