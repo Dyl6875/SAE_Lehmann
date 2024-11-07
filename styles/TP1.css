@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    min-width: 20vh;
+    min-width: 100vh;
 }
 
 header {
@@ -12,7 +12,6 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #f5572a;
-    padding: 10px;
 }
 
 h1 {
@@ -32,10 +31,7 @@ a {
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 32px 64px;
+ margin: 0;
 }
 
 img {
@@ -43,5 +39,5 @@ img {
 }
 
 .logo {
-    width: 180px;
+    width: 80px;
 }
