@@ -1,6 +1,5 @@
 body {
-    background-image: url(/img/bugatti-chiron-veyron.jpg);
-    background-size: cover;
+
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -14,6 +13,24 @@ header {
     background-color: #f5572a;
 }
 
+main {
+    margin: 0;
+}
+
+.page1 {
+    min-height: 120vh;
+    background-image: url(/img/bugatti-chiron-veyron.jpg);
+    background-size: cover;
+}
+
+.page2 {
+    min-height: 100vh;
+}
+
+.page3 {
+    min-height: 100vh;
+}
+
 h1 {
     display: flex;
     align-items: center;
@@ -25,13 +42,10 @@ h1 {
 }
 
 a {
+    border: solid black;
+    padding :8px;
     text-decoration: none;
     color: black;
-    margin-left: 150px;
-}
-
-main {
- margin: 0;
 }
 
 img {
@@ -40,4 +54,9 @@ img {
 
 .logo {
     width: 80px;
+}
+
+.btnheader{
+
+    gap: 100px;
 }
