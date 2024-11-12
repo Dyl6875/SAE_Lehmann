@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
     background-repeat: no-repeat;
@@ -24,11 +28,11 @@ main {
 }
 
 .page2 {
-    min-height: 100vh;
+    min-height: 120vh;
 }
 
 .page3 {
-    min-height: 100vh;
+    min-height: 120vh;
 }
 
 h1 {
@@ -37,19 +41,31 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    
+}
+
 .flex {
     display: flex;
 }
+
 .bouge{
     margin-right: 30px;
 }
 
 a {
+    display: flex;
+    justify-content: center;
+    max-height: 21px;
     border: solid black;
     font-family: bold;
     padding :8px 30px;
     text-decoration: none;
     color: black;
+    border-radius: 3px;
 }
 
 img {
@@ -60,6 +76,11 @@ img {
     width: 55px;
 }
 
-.btnheader{
+.btnheader { 
     gap: 50px;
+}
+
+.ou { 
+    display: flex;
+    justify-content: center;
 }
