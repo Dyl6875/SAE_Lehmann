@@ -3,7 +3,6 @@ html {
 }
 
 body {
-
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -22,10 +21,21 @@ main {
 }
 
 .page1 {
-    min-height: 120vh;
-    background-image: url(/img/bugatti-chiron-veyron.jpg);
+    min-height: 100vh;
+    background-image: url(/img/bugatti-chiron-veyron.png);
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
+
+.taille {
+    display: flex;
+    align-items: center;
+    margin-left: 42px;
+    width: 250px;
+    height: 250px;
+}
+
 
 .page2 {
     min-height: 120vh;
@@ -45,24 +55,24 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 15px;
-    
+
 }
 
 .flex {
     display: flex;
 }
 
-.bouge{
+.bouge {
     margin-right: 30px;
 }
 
-a {
+.a2 {
     display: flex;
     justify-content: center;
     max-height: 21px;
     border: solid black;
     font-family: bold;
-    padding :8px 30px;
+    padding: 8px 30px;
     text-decoration: none;
     color: black;
     border-radius: 3px;
@@ -70,17 +80,18 @@ a {
 
 img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .logo {
     width: 55px;
 }
 
-.btnheader { 
+.btnheader {
     gap: 50px;
 }
 
-.ou { 
+.ou {
     display: flex;
     justify-content: center;
 }
