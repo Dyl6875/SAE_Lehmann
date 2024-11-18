@@ -182,5 +182,8 @@ img {
     border: solid #f5572a;
     background-color: #f5572a;
     border-radius: 15px;
+}
 
+.cent {
+    margin: 5px;
 }
