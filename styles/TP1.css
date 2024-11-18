@@ -1,13 +1,11 @@
 html {
     scroll-behavior: smooth;
-
 }
 
 body {
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    min-width: 100vh;
 }
 
 header {
@@ -23,7 +21,7 @@ main {
 
 .page1 {
     min-height: 100vh;
-    background-image: linear-gradient(135deg, black 20%, #2b2b2b 30%, #f5572a 100%);
+    background-image: linear-gradient(135deg, black 20%, #f5572a);
     display: flex;
     align-items: center;
 }
@@ -38,7 +36,7 @@ main {
 
 .page2 {
     min-height: 100vh;
-    background-image: linear-gradient(135deg, black, #f5572a);
+    background-image: linear-gradient(135deg, black 20%, #f5572a);
     padding: 25px;
     color: white;
 }
@@ -57,7 +55,7 @@ main {
 
 .page3 {
     min-height: 100vh;
-    background-image: linear-gradient(135deg, black, #f5572a);
+    background-image: linear-gradient(135deg, black 20%, #f5572a);
 }
 
 h1 {
@@ -120,3 +118,48 @@ img {
 .ou3 {
     margin-top: 35px;
 }
+
+
+
+.sae {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+}
+
+.listesae {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    font-family: bold;
+    font-size: 48px;
+}
+
+.liste {
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 25px;
+}
+
+.flex2 {
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+}
+
+.block {
+    margin: 45px;
+    display: block;
+    color: rgb(220, 179, 186);
+}
+
+.centre4{
+    display: flex;
+    justify-content: center;
+    color: rgb(81, 86, 168);
+  }
