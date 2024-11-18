@@ -19,6 +19,10 @@ main {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .page1 {
     min-height: 100vh;
     background-image: linear-gradient(135deg, black 20%, #f5572a);
@@ -107,8 +111,8 @@ img {
 
 .ou {
     display: flex;
-    flex-direction: column; /* Met le texte en verticalement */
-    text-align: center; /* Centre le texte */
+    flex-direction: column;    /* Met le texte en verticalement */
+    text-align: center;     /* Centre le texte */
 }
 
 .ou2 {
@@ -125,8 +129,13 @@ img {
     padding: 20px;
     background-color: white;
     border-radius: 15px;
-    width: 500px;
+    width: 235px;
     height: 300px;
+    transition: 0.6s;
+}
+
+.sae:hover{
+    padding: 30px;
 }
 
 .listesae {
@@ -148,18 +157,30 @@ img {
 
 .flex2 {
     display: flex;
-    margin: 50px;
+    justify-content: center;
+    padding: 15px;
+    padding-top: 35px;
     gap: 50px;
 }
 
 .block {
     margin: 45px;
     display: block;
-    color: rgb(220, 179, 186);
+    color: rgb(0, 0, 0);
 }
 
-.centre4{
+.centre {
     display: flex;
     justify-content: center;
-    color: rgb(81, 86, 168);
-  }
+    color: #f5572a;
+}
+
+.bout {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    border: solid #f5572a;
+    background-color: #f5572a;
+    border-radius: 15px;
+
+}
