@@ -183,8 +183,7 @@ img {
 
 .bout {
     display: flex;
-    flex-direction: column;
-
+    justify-content: center;
     color: #000000;
     border: solid #f5572a;
     background-color: #f5572a;
