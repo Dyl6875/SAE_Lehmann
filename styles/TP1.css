@@ -123,21 +123,19 @@ img {
     margin-top: 35px;
 }
 
-
-
 .sae {
     padding: 20px;
     background-color: white;
     border-radius: 15px;
     width: 235px;
     height: 300px;
-    transition: 0.6s;
+   /* transition: 0.6s;*/
 }
-
+/*
 .sae:hover{
     padding: 30px;
 }
-
+*/
 .listesae {
     display: flex;
     justify-content: center;
@@ -147,12 +145,16 @@ img {
 }
 
 .liste {
-    display: block;
-    justify-content: center;
+    display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px;
+    padding-top: 45px;
+
+   /* margin-left: 100px;
     margin-right: 100px;
-    gap: 25px;
+    gap: 25px; */
 }
 
 .flex2 {
@@ -165,7 +167,11 @@ img {
 
 .block {
     margin: 45px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     color: rgb(0, 0, 0);
 }
 
@@ -177,7 +183,8 @@ img {
 
 .bout {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
     color: #000000;
     border: solid #f5572a;
     background-color: #f5572a;
