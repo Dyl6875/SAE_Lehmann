@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+::selection {
+    background-color: #C0A9A2; /* Couleur du surlignage */
+    color: rgb(0, 0, 0); /*couleur du texte dans le surlignage */
+}
+
 body {
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
