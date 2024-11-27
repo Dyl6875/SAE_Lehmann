@@ -1,19 +1,17 @@
-let sae = Object.keys(SAE); // Récupère les clés des SAE
+let sae = Object.keys(SAE); 
 console.log(sae);
 
-let titresae = ''; // Génère la liste des SAE
-
-let titre = Object.values(SAE).map(sae => sae.titre); // Titres des SAE
+let titresae = ''; 
+let titre = Object.values(SAE).map(sae => sae.titre); 
 console.log(titre);
 
-let compétences = Object.values(SAE).map(sae => sae.compétences); // Compétences des SAE
+let compétences = Object.values(SAE).map(sae => sae.compétences); 
 
-// Génère la liste des SAE (pour la page 2)
 for (let i = 0; i < sae.length; i++) {
     titresae += `
-        <a href='/SAE.html?sae=${sae[i]}'> 
-            <div class='sae'> 
-                <h1 class='centre'>${sae[i]}</h1> 
+        <a href='/sae.html?sae=${sae[i]}'> 
+            <div class='S'> 
+                <h1 class='titel'>${sae[i]}</h1> 
                 <p>${titre[i]}</p> 
                 <p class='compétence'> ${compétences[i].join(', ')}</p>
             </div>
@@ -25,17 +23,14 @@ if (document.querySelector(".listee")) {
     document.querySelector(".listee").innerHTML = titresae;
 }
 
-
-document.querySelector(".liste").innerHTML = sae;
-
-const params = new URLSearchParams(windows.location.search);
-
-const saeID = params.get('sae');
+const params = new URLSearchParams(window.location.search);
+const saeID = params.get('sae'); 
 
 if (saeID && SAE[saeID]) {
-    const saeData = SAE[saeID];
+    const saeData = SAE[saeID]; 
+
     let content = `
-    <div class="sae-contenue">
+    <div class="saecontenue">
         <p><strong class='description'>Description :</strong> ${saeData.description}</p>
         <h3>Activités</h3>
         <ul>
@@ -52,3 +47,9 @@ if (saeID && SAE[saeID]) {
     document.getElementById('app').innerHTML = content;
 
 } 
+
+else if (document.getElementById('app')) 
+    {
+
+    document.getElementById('app').innerHTML = '<p>SAE non trouvée !</p>';
+}
