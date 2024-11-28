@@ -58,10 +58,17 @@ h1 {
 
 img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .logo {
     width: 55px;
+}
+
+.logo2 {
+    width: 55px;
+    display: flex;
+    justify-content: center;
 }
 
 .btnheader {

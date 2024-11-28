@@ -123,6 +123,12 @@ img {
     width: 55px;
 }
 
+.logo2 {
+    width: 55px;
+    display: flex;
+    justify-content: center;
+}
+
 .btnheader {
     gap: 50px;
 }
