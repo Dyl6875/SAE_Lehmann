@@ -34,12 +34,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 300px;
 }
 
 .taille {
     display: flex;
     align-items: center;
-    margin-left: 250px;
     width: 250px;
 }
 
@@ -47,14 +47,13 @@ a {
 .page2 {
     min-height: 100vh;
     background-image: linear-gradient(135deg, black 20%, #f5572a);
-    padding: 25px;
+    padding: 50px;
     color: white;
 }
 
 .taille2 {
     display: flex;
     justify-content: space-between;
-    margin: 50px;
 }
 
 .taille3 {
