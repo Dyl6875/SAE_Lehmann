@@ -153,13 +153,13 @@ img {
     border-radius: 15px;
     width: 235px;
     height: 150px;
-   /* transition: 0.6s;*/
+   transition: 0.6s;
 }
-/*
+
 .sae:hover{
     padding: 30px;
 }
-*/
+
 .listesae {
     display: flex;
     justify-content: center;
