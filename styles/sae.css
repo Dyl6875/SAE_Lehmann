@@ -3,8 +3,8 @@ html {
 }
 
 ::selection {
-    background-color: #C0A9A2; /* Couleur du surlignage */
-    color: rgb(0, 0, 0); /*couleur du texte dans le surlignage */
+    background-color: #C0A9A2;
+    color: rgb(0, 0, 0);
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     min-height: 100vh;
-    background-image: linear-gradient(135deg, black 20%, #f5572a);
+    background-image: linear-gradient(135deg, black 20%, #f5572a); 
     color: white;
 }
 
@@ -75,19 +75,6 @@ img {
     gap: 50px;
 }
 
-.sae {
-    padding: 20px;
-    background-color: white;
-    border-radius: 15px;
-    width: 235px;
-    height: 150px;
-   transition: 0.6s;
-}
-
-.sae:hover{
-    padding: 30px;
-}
-
 .flex2 {
     display: flex;
     justify-content: center;
@@ -97,19 +84,14 @@ img {
     gap: 35px;
 }
 
-.block {
-    margin: 45px;
-    display: flex;
-    justify-content: center;
-    border: solid rgb(255, 255, 255);
-    border-radius: 3px;
-    padding: 20px;
+.centre {
+    color: #f5572a;
 }
 
-.centre {
+.tcentre {
     display: flex;
     justify-content: center;
-    color: #f5572a;
+    color: #ffffff;
 }
 
 .bout {
@@ -133,3 +115,26 @@ img {
 .cent2 {
     margin-left: 40px;
 }
+
+.grand {
+    margin: auto;
+    width: 750px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    
+}
+
+.grand2 {
+    display: flex;
+    margin: auto;
+    width: 750px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    color: #f5572a;
+}
+
+.grand3 {
+    display: flex;
+    align-items: center;
+}
+

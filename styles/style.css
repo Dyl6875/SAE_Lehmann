@@ -1,24 +1,22 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;     /* Défilement fluide entre les pages */
 }
 
 ::selection {
-    background-color: #C0A9A2;
-    /* Couleur du surlignage */
-    color: rgb(0, 0, 0);
-    /*couleur du texte dans le surlignage */
+    background-color: #C0A9A2; /* Couleur du surlignage */
+    color: rgb(0, 0, 0); /*couleur du texte quand on le surligne */
 }
 
 body {
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+    background-repeat: no-repeat; /* Pas de répétition d'image de fond */
+    font-family: 'Roboto', sans-serif; /* Police des textes */
+    margin: 0; /* Enlève les marges par défaut */
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /* Permet que mon contenu puisse bouger avec d'autres actions */
+    align-items: center; /* centre mon contenu au milieu de la page (vertical) */
+    justify-content: space-between; /* sépare mon contenu par un espace au milieu d'entre lui (horizontal) */
     background-color: #f5572a;
 }
 
@@ -27,30 +25,30 @@ main {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* Pas de décoration des boutons (couleur bleu/violette) */
 }
 
 .page1 {
-    min-height: 100vh;
-    background-image: linear-gradient(135deg, black 20%, #f5572a);
-    display: flex;
+    min-height: 100vh; /* défini la taille minimum de ma page */
+    background-image: linear-gradient(135deg, black 20%, #f5572a); /* dégrader de couleur en fond qui commence en haut et gauche et fini en bas a droite*/
+    display: flex; 
     align-items: center;
-    justify-content: center;
-    gap: 300px;
+    justify-content: center; /* centre mon contenu au milieu de la page (horizontal) */
+    gap: 300px; /* laisse un espace verticalement et horizontalement */
 }
 
 .taille {
     display: flex;
     align-items: center;
-    width: 250px;
+    width: 250px; /* taille de mon contenu  */
 }
 
 
 .page2 {
     min-height: 100vh;
     background-image: linear-gradient(135deg, black 20%, #f5572a);
-    padding: 50px;
-    color: white;
+    padding: 50px; /* laisse de l'espace verticalement */
+    color: white; /* couleur de mon contenu */
 }
 
 .taille2 {
@@ -79,7 +77,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* laisse de l'espace en bas */
 
 }
 
@@ -88,19 +86,19 @@ h2 {
 }
 
 .bouge {
-    margin-right: 30px;
+    margin-right: 30px; /* laisse de l'espace à droite */
 }
 
 .a2 {
     display: flex;
     justify-content: center;
-    max-height: 21px;
-    border: solid black;
-    font-family: bold;
-    padding: 8px 30px;
+    max-height: 21px; /* hauteur maximum */
+    border: solid black; /* crée un cadre solide autour de mon contenu */
+    font-family: bold; /* met la police en gras */
+    padding: 8px 30px; /* espace a l'intérieur du cadre */
     text-decoration: none;
     color: black;
-    border-radius: 3px;
+    border-radius: 3px; /* arrondi les coins de mon cadre */
 }
 
 .pp {
@@ -137,20 +135,20 @@ img {
 
 .ou {
     display: flex;
-    flex-direction: column; /* Met le texte en verticalement */
+    flex-direction: column; /* Met le texte en vertical */
     text-align: center; /* Centre le texte */
 }
 
 .ou2 {
-    font-size: xx-large;
+    font-size: xx-large; /* définit la taille du texte */
 }
 
 .ou3 {
-    margin-top: 35px;
+    margin-top: 35px; /* laisse de l'espace en haut */
 }
 
 .ou4 {
-    padding-bottom: 25px;
+    padding-bottom: 25px; /* laisse de l'espace en bas */
 }
 
 .sae {
@@ -159,20 +157,20 @@ img {
     border-radius: 15px;
     width: 235px;
     height: 150px;
-    transition: 0.6s;
+    transition: 0.6s; /* mon contenu bouge en 0,6 sec quand on passe la souris dessus */
 }
 
 .sae:hover {
-    padding: 30px;
+    transform: scale(1.1); /* agrandi ma case quand on passe la souris dessus */
 }
 
 .liste {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* aligne à la ligne si la page rétrecit ou grandit */
     justify-content: center;
     gap: 50px;
     padding: 15px;
-    padding-top: 45px;
+    padding-top: 45px; /* laisse de l'espace en haut */
 }
 
 .flex2 {
@@ -189,3 +187,39 @@ img {
     justify-content: center;
     color: #f5572a;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.twitch {
+    display: flex;
+    font-size: large;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 150px;
+}
+
+.twitchh {
+    margin-left: 50px;
+}
+
+.space {
+    margin-left: 50px;
+}
+
+.spacee {
+    display: flex;
+    width: 50px;
+    margin-left: 150px;}
+
+.twitche {
+    display: flex;
+    width: 50px;
+    margin-left: 100px;
+}
+
